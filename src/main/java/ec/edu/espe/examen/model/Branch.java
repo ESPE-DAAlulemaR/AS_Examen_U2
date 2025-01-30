@@ -24,7 +24,7 @@ public class Branch {
     private LocalDateTime creationDate;
     private LocalDateTime lastModifiedDate;
 
-    private List<Branch> branches;
+    private List<Holiday> holidays;
 
     @Override
     public boolean equals(Object o) {
